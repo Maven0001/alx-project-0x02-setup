@@ -1,9 +1,11 @@
 import Header from "@/components/layout/Header";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function Home() {
+function Landing() {
   return (
     <>
       <Header />
+
       <div>
         <h1>Welcome Home</h1>
       </div>
@@ -11,4 +13,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Landing;

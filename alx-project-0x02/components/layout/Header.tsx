@@ -1,18 +1,21 @@
-import "../../app/globals.css";
+import "../../src/app/globals.css";
+import Link from "next/link";
 
 function Header() {
   return (
     <>
-      <div className="flex">
-        <img src="../public/globe.svg" alt="globe" />
-
-        <ul className="flex list-none bg-blue-400">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
-          <li>FAQs</li>
-        </ul>
-      </div>
+      <header>
+        <nav>
+          <ul className="flex list-none">
+            <li>
+              <Link href="/home">Home</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
     </>
   );
 }
