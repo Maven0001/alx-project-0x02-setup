@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Card from "@/components/common/Card";
+import PostModal from "@/components/common/PostModal";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         title="Interfaces in Typescript"
         content="Leaning to become a better Front-end engineer"
       />
+      <PostModal />
     </div>
   );
 }
