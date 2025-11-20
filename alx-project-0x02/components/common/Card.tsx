@@ -1,8 +1,10 @@
-import { CardProps } from "../../interfaces";
+import { type CardProps } from "../../interfaces";
 
-const Card: CardProps = {
-  title: "Learning Typescript",
-  content: "Passing interfaces in typescript and routing",
-};
+const Card: React.FC<CardProps> = ({ title, content }) => (
+  <div>
+    <h1>{title}</h1>
+    <p>{content}</p>
+  </div>
+);
 
 export default Card;

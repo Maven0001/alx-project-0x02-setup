@@ -6,10 +6,11 @@ function Home() {
     <div>
       <Header />
       <h1>This is the Homepage</h1>
-      <span>
-        {(Card.title = "Typescript is stressful")} <br />
-        {(Card.content = "But we got no choice than to learn")}
-      </span>
+
+      <Card
+        title="Interfaces in Typescript"
+        content="Leaning to become a better Front-end engineer"
+      />
     </div>
   );
 }
