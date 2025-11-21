@@ -1,4 +1,4 @@
-import Header from "@/components/layout/Header";
+import Header from "../components/layout/Header";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function Landing() {

@@ -1,7 +1,7 @@
 // pages/posts.tsx
 import { useState, useEffect } from "react";
-import PostCard from "@/components/common/PostCard";
-import Header from "@/components/layout/Header";
+import PostCard from "../components/common/PostCard";
+import Header from "../components/layout/Header";
 import { getStaticProps } from "next/dist/build/templates/pages";
 
 interface Post {
