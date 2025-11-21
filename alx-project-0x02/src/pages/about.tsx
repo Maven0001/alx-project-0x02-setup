@@ -7,17 +7,17 @@ function About() {
       <Header />
       <h1>This is the ABout Us page</h1>
 
-      <Button size="small" shape="rounded-sm">
+      <button size="small" shape="rounded-sm">
         Small Button
-      </Button>
+      </button>
 
-      <Button size="medium" shape="rounded-md">
+      <button size="medium" shape="rounded-md">
         Medium Button
-      </Button>
+      </button>
 
-      <Button size="large" shape="rounded-full">
+      <button size="large" shape="rounded-full">
         Large Pill Button
-      </Button>
+      </button>
     </div>
   );
 }

@@ -23,7 +23,9 @@ const Button: React.FC<ButtonProps> = ({
         ${sizeClasses[size]}
         ${shapeClasses[shape]}
       `}
-    ></button>
+    >
+      My Button
+    </button>
   );
 };
 
