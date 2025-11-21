@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import PostCard from "@/components/common/PostCard";
 import Header from "@/components/layout/Header";
+import { getStaticProps } from "next/dist/build/templates/pages";
 
 interface Post {
   id: number;
@@ -9,6 +10,8 @@ interface Post {
 
   userId: number;
 }
+
+getStaticProps;
 
 export default function PostsPage() {
   const [posts, setPosts] = useState<Post[]>([]);
