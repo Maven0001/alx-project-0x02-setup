@@ -6,7 +6,7 @@ import Header from "@/components/layout/Header";
 interface Post {
   id: number;
   title: string;
-  body: string;
+
   userId: number;
 }
 
@@ -58,12 +58,7 @@ export default function PostsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.map((post) => (
-              <PostCard
-                key={post.id}
-                title={post.title}
-                body={post.body}
-                userId={post.userId}
-              />
+              <PostCard key={post.id} title={post.title} userId={post.userId} />
             ))}
           </div>
         </div>
