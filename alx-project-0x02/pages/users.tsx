@@ -3,7 +3,9 @@ import UserCard from "../components/common/UserCard";
 import Header from "../components/layout/Header";
 
 import { type UserProps } from "../interfaces";
+import { getStaticProps } from "next/dist/build/templates/pages";
 
+getStaticProps;
 export default function UsersPage() {
   const [users, setUsers] = useState<UserProps[]>([]);
   const [loading, setLoading] = useState(true);
